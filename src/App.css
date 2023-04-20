@@ -147,3 +147,19 @@ img{
   --bs-btn-disabled-bg: #212529;
   --bs-btn-disabled-border-color: #212529;
 }
+form div{
+  width: 400px;
+  height: 120px;
+  background-color: rgb(182, 128, 243);
+  position: relative;
+  left:35%;
+}
+fieldset{
+  color: rgb(25, 3, 98);
+}
+#formbutton{
+  background-color: rgb(220, 203, 224);
+  color: rgb(11, 10, 10);
+  border-radius: 5px;
+  padding:3px;
+}

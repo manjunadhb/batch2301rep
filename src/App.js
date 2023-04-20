@@ -14,7 +14,22 @@ function App() {
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Badge_of_the_Indian_Air_Force.svg/1857px-Badge_of_the_Indian_Air_Force.svg.png"></img>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Indian_Navy_Insignia.svg/1200px-Indian_Navy_Insignia.svg.png"></img>
     </div>
-     <h1>SASS Practice</h1>
+    <br></br>
+    <form>
+  <div >
+    <fieldset>
+      <legend>Email Login</legend>
+      <label>Email Id</label>
+      <input></input>
+      <br></br>
+      <label>Password</label>
+      <input type="password"></input>
+      <br></br>
+      <button id="formbutton">LOGIN</button>
+    </fieldset>
+  </div>
+  </form>
+    <h1>SASS Practice</h1>
       <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
 <button type="button" class="btn btn-success">Success</button>
@@ -26,6 +41,8 @@ function App() {
 
 <button type="button" class="btn btn-link">Link</button>
     </div>
+ 
+  
   );
 }
 
